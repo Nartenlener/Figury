@@ -57,6 +57,21 @@ public class Figury {
 			x = 1;
 			break;
 			
+		case 4: //trapez
+			
+			System.out.println("Podaj wymiar dolnej podstawy trapezu:");
+			Trapez.dolnaPodstawa = dane.nextDouble();
+			
+			System.out.println("Podaj wymiad górnej podstawy trapezu:");
+			Trapez.gornaPodstawa = dane.nextDouble();
+			
+			System.out.println("Podaj wysokosc:");
+			Trapez.wysokosc = dane.nextDouble();
+			
+			Trapez.obliczenia();
+			x = 1;
+			break;
+			
 		default:
 			System.out.println("Podana wartoœæ jest b³êdna. Chcesz zacz¹æ jeszcze raz?");
 			x = dane.nextInt();
